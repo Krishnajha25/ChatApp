@@ -54,5 +54,42 @@
 .divider{
     width: 100%;
     /* margin: 0 5%; */
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #1c162b;
+    margin-bottom: 10px;
+}
+
+.chat-list{
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.chat-single{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background: #1c162b;
+    padding: 5px 10px;
+}
+
+.chat-face{
+    width: 50px;
+    height: 50px;
+    background: #100c1a;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat-name{
+    margin-left: 10px;
+}
+
+.chat-name .person-name{
+    color: #fff;
+}
+
+.chat-name .message{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #c3bbda;
 }
